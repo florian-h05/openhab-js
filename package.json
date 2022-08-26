@@ -25,7 +25,9 @@
         "webpack": "webpack",
         "types": "tsc",
         "commit": "npx git-cz --signoff",
-        "commit:sign": "npx git-cz --signoff -S"
+        "commit:sign": "npx git-cz --signoff -S",
+        "prerelease": "npm test",
+        "release": "npx standard-version"
     },
     "devDependencies": {
         "acorn": "^8.6.0",
