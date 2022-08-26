@@ -23,7 +23,9 @@
         "lint": "npx standardx | snazzy",
         "lint:fix": "npx standardx --fix",
         "webpack": "webpack",
-        "types": "tsc"
+        "types": "tsc",
+        "commit": "npx git-cz --signoff",
+        "commit:sign": "npx git-cz --signoff -S"
     },
     "devDependencies": {
         "acorn": "^8.6.0",
